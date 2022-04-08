@@ -15,9 +15,9 @@ public class TestIf01 {
         int count=i+j+k;
         System.out.println("第一次掷骰子："+i);
         System.out.println("第二次掷骰子："+j);
-        System.out.println("第三次掷骰子："+j);
+        System.out.println("第三次掷骰子："+k);
 
-        if (count>15){
+        if (count>=15){
             System.out.println("哟不错嘛！再来一次叭");
         }
         if(count>=10&&count<15){
